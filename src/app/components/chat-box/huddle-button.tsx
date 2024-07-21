@@ -57,7 +57,7 @@ const HuddleDropdown = () => {
 
 const HuddleButton = () => {
   return (
-    <div className="flex items-center divide- divide-neutral-700 bg-transparent border border-neutral-700 rounded-lg">
+    <div className="flex items-center divide- divide-neutral-700 bg-transparent border border-neutral-700 rounded">
       <TooltipProvider>
         <Tooltip delayDuration={500}>
           <TooltipTrigger asChild>

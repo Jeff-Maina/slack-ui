@@ -24,7 +24,7 @@ const NavUserProfile = () => {
           <TooltipTrigger className="flex items-center gap-3 hover:bg-[#23292f] p-1 rounded-md transition-all" asChild>
             <DialogTrigger className=" transition-all rounded-md">
               <div className="size-5 rounded-md flex items-end justify-center bg-gradient-to-bl from-purple-500 to-pink-500 relative">
-                <div className="absolute size-4 border-[3px] border-primary_bg rounded-full -right-2 bg-neutral-500 -bottom-[2px]"></div>
+                <div className="absolute size-4 border-[3px] border-primary_bg rounded-full -right-2 bg-neutral-400 -bottom-[2px]"></div>
               </div>
               <div className="flex items-center gap-1.5">
                 <span className="text-white font-semibold flex gap-[2px]">
