@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.tooltip {
+  @apply bg-black border-neutral-800 text-sm font-semibold;
+}

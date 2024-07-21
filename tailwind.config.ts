@@ -20,6 +20,7 @@ const config = {
     extend: {
       colors: {
         primary_bg: "#1a1d21",
+        primary_bg_hover: "#23292f",
         outer_border_color: "#564230",
         inner_b_color: "#34373a",
         border: "hsl(var(--border))",
