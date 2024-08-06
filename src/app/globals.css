@@ -73,5 +73,5 @@
 }
 
 .button {
-  @apply text-neutral-200 rounded font-semibold border border-neutral-700 p-2 px-3 text-sm;
+  @apply flex text-neutral-200 rounded font-semibold border border-neutral-700 p-2 px-3 text-sm;
 }

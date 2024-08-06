@@ -1,6 +1,6 @@
 import { Sticker } from "lucide-react";
 import HuddleButton from "./huddle-button";
-import NavUserProfile from "./nav-user-profile";
+import NavUserProfile from "./profile-modal/nav-user-profile";
 import {
   Tooltip,
   TooltipContent,
@@ -10,7 +10,7 @@ import {
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center p-6 pb-0 justify-between">
+    <nav className="flex items-center p-4 pb-0 justify-between">
       <NavUserProfile />
       <div className="flex items-center gap-2">
         <HuddleButton />
