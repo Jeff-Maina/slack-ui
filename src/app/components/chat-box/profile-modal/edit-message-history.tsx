@@ -33,19 +33,19 @@ const EditMessageHistory = () => {
             Edit message history
           </D.DialogTitle>
         </D.DialogHeader>
-        <p className="text-neutral-300 text-sm">
+        <p className="text-neutral-300 text-sm leading-normal">
           You can choose to delete messages in this channel after a set amount
           of time or use the default time period for the workspace
         </p>
 
         <RadioGroup defaultValue="comfortable" className="text-neutral-300">
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 !cursor-pointer">
             <RadioGroupItem
               value="default"
               id="r1"
               className="border-white translate-y-1"
             />
-            <Label htmlFor="r1" className="leading-normal">
+            <Label htmlFor="r1" className="leading-normal text-white">
               Use the default period for Channel 4
               <br />
               <span className="text-neutral-400">
@@ -55,9 +55,9 @@ const EditMessageHistory = () => {
             </Label>
           </div>
 
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 !cursor-pointer">
             <RadioGroupItem value="compact" id="r2" className="border-white" />
-            <Label htmlFor="r2">
+            <Label htmlFor="r2" className="text-white">
               Delete messages after a specific time period
             </Label>
           </div>

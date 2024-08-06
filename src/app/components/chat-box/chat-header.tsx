@@ -5,7 +5,7 @@ const ChatHeader = () => {
   return (
     <main className="p-4 flex flex-col gap-4 pt-16">
       <div className="flex items-center gap-4">
-        <div className="size-24 bg-gradient-to-bl from-purple-500 to-pink-500 rounded-lg"></div>
+        <div className="size-20 bg-gradient-to-bl from-purple-500 to-pink-500 rounded-lg"></div>
         <div className="flex items-center gap-3">
           <p className="text-neutral-300 font-semibold text-xl">
             jeff.gichuki (you)
